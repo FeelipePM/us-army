@@ -1,0 +1,291 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  z-index: 1;
+}
+
+header > .logo {
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: #ec526a;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1; 
+}
+
+header .star {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-left: -45px;
+  padding: 15px 10px 13px 50px;
+  background-color: #504e5b;
+}
+
+header .responsive-menu {
+    display: none;
+  }
+
+header ul a {
+  text-decoration: none;
+}
+
+header ul a li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+header ul a li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid #ec526a;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.wrapper {
+  width: 100%;
+  color: #333;
+  background: #419be0;
+}
+
+.slick-slide img {
+  width: 100%;
+  text-align: center;
+}
+
+button.slick-prev, button.slick-next {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  z-index: 1;
+}
+
+.content {
+  text-align: center;
+  padding: 40px;
+}
+
+.content img {
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+}
+
+.content .box {
+  width: 250px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  background: #fff;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 10px;
+}
+
+.content .box h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content .box p {
+  margin-bottom: 25px;
+
+}
+
+.content .box .more {
+  padding: 10px 20px;
+  background: #403c4b;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.information {
+  text-align: center;
+  background: #f95c6d;
+  color: #fff;
+  padding: 40px;
+}
+
+.information h1 {
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 100px;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+.information h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.information span {
+  display: block;
+}
+
+.information p {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+.information a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.latest-events {
+  text-align: center;
+  background-color: #403a48;
+  color: #fff;
+  padding: 40px;
+}
+
+.latest-events .box {
+  position: relative;
+  width: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.latest-events h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.latest-events figure img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.latest-events figure::after {
+  content: '27';
+  align-items: center;
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  bottom: 35%;
+  left: 35%;
+  background-color: #ec526a;
+}
+
+.latest-events figure#army-2::after {
+  content: '02';
+}
+
+.latest-events figure#army-3::after {
+  content: '15';
+}
+
+.latest-events figure#army-4::after {
+  content: '23';
+}
+
+.latest-events figcaption {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.latest-events .more {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 50px;
+}
+
+footer .box {
+  width: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+footer .box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+address > .logo {
+  position: absolute;
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: #ec526a;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1; 
+}
+
+address .star {
+  position: absolute;
+  left: 10%;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-top: -10px;
+  margin-left: -45px;
+  padding: 15px 10px 13px 50px;
+  background-color: #504e5b;
+}
+
+@media  (max-width: 550px) {
+  header nav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255);
+  }
+
+  header ul a li {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+
+  header .responsive-menu {
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+
+}
