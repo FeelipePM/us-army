@@ -32,6 +32,10 @@ header .responsive-menu {
     display: none;
   }
 
+  header .menu-close {
+    display: none;
+  }
+
 header ul a {
   text-decoration: none;
 }
@@ -294,6 +298,18 @@ address .star {
     cursor: pointer;
     width: 30px;
     height: 30px;
+  }
+
+  header .responsive-menu.-open {
+    display: none;
+  }
+
+  header .menu-close.-open {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
   }
 
 }
